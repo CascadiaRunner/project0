@@ -1,0 +1,29 @@
+h1 {
+	color: red;
+  }
+
+ul {
+	list-style: None;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/* li {
+	padding-left: 1em;
+	text-indent: -1em;
+  } */
+  
+  li:before {
+	content: "🐈 ";
+	padding-right: 5px;
+  }
+
+  li.smile:before {
+	content: "😺 ";
+	padding-right: 5px;
+  }
+
+  li.frown:before {
+	content: "😾 ";
+	padding-right: 5px;
+  }
