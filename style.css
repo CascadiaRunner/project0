@@ -1,31 +1,20 @@
-/* .rotateimg {
-	-webkit-transform:rotate(90deg);
-	-moz-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
-  } */
-
 .rotateimg {
-	transform:rotate(90deg);
+	transform: rotate(90deg);
+	display:block;
+    margin-top:20px;
 }
 
 h1 {
 	color: red;
-  }
+}
 
 ul {
 	list-style: None;
 	margin-left: 0;
 	padding-left: 0;
 }
-
-/* li {
-	padding-left: 1em;
-	text-indent: -1em;
-  } */
   
-  li:before {
+  li.neutral:before {
 	content: "🐈 ";
 	padding-right: 5px;
   }
