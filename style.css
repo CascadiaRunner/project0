@@ -1,19 +1,9 @@
 body {
-	background-color: lightblue;
-}
-
-@media only screen and (min-width: 800px) {
-	body {
-		background-color: aqua;
-	}
-	img {
-		height:33%;
-		width:33%;
-	}
+	background-color: lightskyblue;
 }
 
 img {
-	position: relative;
+
 	display: block;
 	margin:20px;
 }
@@ -23,10 +13,31 @@ img {
 	margin:20px;
 }
 
-/* h1 {
-	color: red;
-} */
+/* Responsive images for greater than 800px width */
+@media only screen and (min-width: 800px) {
 
+	img {
+		margin:20px;
+		height:25%;
+		width:25%;
+		display:block;
+
+	}
+}
+
+/* Responive images for greater than 1500px width */
+@media only screen and (min-width: 1500px) {
+
+	img {
+		margin:20px;
+		height:15%;
+		width:15%;
+		display:block;
+
+	}
+}
+
+/* Use different symbols for unordered lists */
 ul {
 	list-style: None;
 	margin-left: 0;

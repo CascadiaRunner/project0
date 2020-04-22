@@ -1,11 +1,21 @@
+body {
+  margin: 20px;
+  background-color: lightskyblue;
+}
+
+img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 img.portrait {
   height: 75%;
   width: 75%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 img.landscape {
@@ -13,6 +23,5 @@ img.landscape {
   width: 75%;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  display: block;
 }
 /*# sourceMappingURL=photo_style.css.map */
