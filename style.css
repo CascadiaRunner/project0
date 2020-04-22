@@ -11,6 +11,7 @@ img {
 .rotateimg {
 	transform: rotate(90deg);
 	margin:20px;
+	display: inline-block;
 }
 
 /* Responsive images for greater than 800px width */
