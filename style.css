@@ -4,14 +4,13 @@ body {
 
 img {
 
-	display: block;
+	display: inline-block;
 	margin:20px;
 }
 
 .rotateimg {
 
 	margin:20px;
-	display: inline-block;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
@@ -25,7 +24,7 @@ img {
 		margin:20px;
 		height:25%;
 		width:25%;
-		display:block;
+		display: inline-block;
 
 	}
 }
@@ -37,7 +36,7 @@ img {
 		margin:20px;
 		height:15%;
 		width:15%;
-		display:block;
+		display: inline-block;
 
 	}
 }
