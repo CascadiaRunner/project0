@@ -1,12 +1,31 @@
-.rotateimg {
-	transform: rotate(90deg);
-	display:block;
-    margin-top:20px;
+body {
+	background-color: lightblue;
 }
 
-h1 {
-	color: red;
+@media only screen and (min-width: 800px) {
+	body {
+		background-color: aqua;
+	}
+	img {
+		height:33%;
+		width:33%;
+	}
 }
+
+img {
+	position: relative;
+	display: block;
+	margin:20px;
+}
+
+.rotateimg {
+	transform: rotate(90deg);
+	margin:20px;
+}
+
+/* h1 {
+	color: red;
+} */
 
 ul {
 	list-style: None;
