@@ -16,7 +16,8 @@ img.portrait {
   height: 75%;
   width: 75%;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 img.landscape {

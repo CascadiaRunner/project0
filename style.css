@@ -9,9 +9,13 @@ img {
 }
 
 .rotateimg {
-	transform: rotate(90deg);
+
 	margin:20px;
 	display: inline-block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 /* Responsive images for greater than 800px width */

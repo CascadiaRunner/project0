@@ -18,6 +18,10 @@ img {
 img.portrait {
 	height:$h;
 	width:$w;
+	-webkit-transform: $portrait;
+	-moz-transform: $portrait;
+	-o-transform: $portrait;
+	transform: $portrait;
 	transform: $portrait;
 
 }
